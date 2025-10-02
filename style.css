@@ -1,0 +1,104 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #222;
+  padding: 1rem 2rem;
+}
+.navbar .logo {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+.navbar ul li {
+  margin-left: 20px;
+}
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+  /* background: url("images/banner.jpg") no-repeat center center/cover; */
+  color:black;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#hero h1 {
+  font-size: 2.5rem;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  background: #f04e31;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 50px;
+  text-align: center;
+}
+.event-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.event-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+/* Registration Form */
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input, form select {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+form button {
+  background: #f04e31;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+form button:hover {
+  background: #d63a1e;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
