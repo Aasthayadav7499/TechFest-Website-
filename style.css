@@ -6,11 +6,11 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
+/* NavBar */
 .navbar {
   display: flex;
   justify-content: space-between;
-  background: #222;
+  background-color: #222;
   padding: 1rem 2rem;
 }
 .navbar .logo {
@@ -30,10 +30,9 @@ body {
   text-decoration: none;
 }
 
-/* Hero Section */
+/* Hero section */
 #hero {
-  /* background: url("images/banner.jpg") no-repeat center center/cover; */
-  color:black;
+  color: black;
   height: 50vh;
   display: flex;
   align-items: center;
@@ -102,3 +101,5 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
+
